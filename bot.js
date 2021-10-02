@@ -235,14 +235,14 @@ async function whatsAsena () {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
-${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
+${chalk.blue.italic('ℹ️ Whatsapp A Bağlanıyor Bekleyiniz.')}`);
     });
     WhatsAsenaCN.on('open', async () => {
         console.log(
-            chalk.green.bold('✅ Login Successful!')
+            chalk.green.bold('✅ Başarı ile Bağlanıldı.')
         );
         console.log(
-            chalk.blueBright.italic('⬇️ Installing External Plugins...')
+            chalk.blueBright.italic('⬇️ Pluginler Yükleniyor Lütfen bekleyiniz...')
         );
         if (os.userInfo().homedir !== clh.pay) return;
         asynchronous_ch()
@@ -265,7 +265,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         // ==================== End External Plugins ====================
 
         console.log(
-            chalk.blueBright.italic('⬇️  Installing Plugins...')
+            chalk.blueBright.italic('⬇️  Pluginler Yükleniyor Lütfen Bekleyiniz...')
         );
 
         // ==================== Internal Plugins ====================
@@ -277,7 +277,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         // ==================== End Internal Plugins ====================
 
         console.log(
-            chalk.green.bold('✅ Plugins Installed!')
+            chalk.green.bold('✅ Pluginler Yüklendi!')
         );
         if (os.userInfo().homedir !== clh.pay) return;
         asynchronous_ch()
